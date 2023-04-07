@@ -11,7 +11,7 @@ using namespace std;
 int bin[90];
 int cmp_count;
 int mov_count;
-int n; 
+int n;
 
 void input() {
 	while (true)
@@ -24,7 +24,7 @@ void input() {
 		else
 			cout << "\nMasukkan Panjang Array adalah 90" << endl;
 
-	}
+	} 
 	cout << "\n--------------------------" << endl;
 	cout << "\nMasukkan Element Array" << endl;
 	cout << "\n--------------------------" << endl;
