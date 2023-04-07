@@ -27,14 +27,14 @@ void input() {
 	}
 	cout << "\n--------------------------" << endl;
 	cout << "\nMasukkan Element Array" << endl;
-	cout << "\n--------------------------" << endl; 
+	cout << "\n--------------------------" << endl;
 
 	for (int i = 0; i < n; i++)
 	{
 		cout << "<" << (i + 1) << ">";
 		cin >> bin[i];
 	}
-}
+} 
 
 void swap(int x, int y)
 {
