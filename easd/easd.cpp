@@ -24,10 +24,10 @@ void input() {
 		else
 			cout << "\nMasukkan Panjang Array adalah 90" << endl;
 
-	} 
+	}
 	cout << "\n--------------------------" << endl;
 	cout << "\nMasukkan Element Array" << endl;
-	cout << "\n--------------------------" << endl;
+	cout << "\n--------------------------" << endl; 
 
 	for (int i = 0; i < n; i++)
 	{
