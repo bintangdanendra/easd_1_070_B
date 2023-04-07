@@ -34,7 +34,7 @@ void input() {
 		cout << "<" << (i + 1) << ">";
 		cin >> bin[i];
 	}
-} 
+}
 
 void swap(int x, int y)
 {
@@ -43,7 +43,7 @@ void swap(int x, int y)
 	temp = bin[x];
 	bin[x] = bin[y];
 	bin[y] = temp;
-}
+} 
 void q_short(int low, int high)
 {
 	int pivot, i, brtd;
