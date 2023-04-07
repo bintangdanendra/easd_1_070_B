@@ -77,7 +77,7 @@ void q_short(int low, int high)
 			swap(i, brtd);
 			mov_count++;
 		}
-	} 
+	}
 
 	if (low < brtd)
 	{
@@ -89,7 +89,7 @@ void q_short(int low, int high)
 
 	q_short(brtd + 1, high);
 
-}
+} 
 
 void display() {
 	cout << "\n-----------------" << endl;
