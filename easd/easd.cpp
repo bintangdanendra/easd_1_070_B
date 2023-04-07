@@ -103,7 +103,7 @@ void display() {
 
 	cout << "\n\nBanyaknya Perbandingan :" << cmp_count << endl;
 	cout << "Jumlah Perpindahan Data :" << mov_count << endl;
-} 
+}
 
 int main()
 {
@@ -113,4 +113,4 @@ int main()
 	system("pause");
 
 	return 0;
-}
+} 
