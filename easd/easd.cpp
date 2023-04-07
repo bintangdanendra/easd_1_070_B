@@ -89,7 +89,7 @@ void q_short(int low, int high)
 
 	q_short(brtd + 1, high);
 
-} 
+}
 
 void display() {
 	cout << "\n-----------------" << endl;
@@ -103,7 +103,7 @@ void display() {
 
 	cout << "\n\nBanyaknya Perbandingan :" << cmp_count << endl;
 	cout << "Jumlah Perpindahan Data :" << mov_count << endl;
-}
+} 
 
 int main()
 {
