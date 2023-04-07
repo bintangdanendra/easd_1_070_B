@@ -43,7 +43,7 @@ void swap(int x, int y)
 	temp = bin[x];
 	bin[x] = bin[y];
 	bin[y] = temp;
-} 
+}
 void q_short(int low, int high)
 {
 	int pivot, i, brtd;
@@ -77,7 +77,7 @@ void q_short(int low, int high)
 			swap(i, brtd);
 			mov_count++;
 		}
-	}
+	} 
 
 	if (low < brtd)
 	{
